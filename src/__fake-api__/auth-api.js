@@ -17,7 +17,7 @@ const users = [
 class AuthApi {
   async login({ email, password }) {
     await wait(500);
-    let user = await axiosClient().post(`/user/login`, {
+    let user = await axiosClient().post(`/user/adminLogin`, {
       email,
       password,
     });
