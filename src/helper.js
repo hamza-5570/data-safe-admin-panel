@@ -1,5 +1,5 @@
 import axios from "axios";
-export const BASE_URL = "https://n-able-be.onrender.com/";
+export const BASE_URL = "https://vh5h49gbfi.execute-api.eu-north-1.amazonaws.com/default";
 // export const BASE_URL =
 //   "https://7597-2400-adc5-16b-5900-c029-2a21-f2ee-7054.ngrok-free.app";
 export function axiosClient() {
